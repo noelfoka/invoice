@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-lt-installed="true">
+    <html lang="en" data-theme="fantasy" data-lt-installed="true" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         data-new-gr-c-s-check-loaded="14.1021.0"
